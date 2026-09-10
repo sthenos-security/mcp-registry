@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "com.sthenosec/install": {
+        "args": [
+          "vibe",
+          "mcp",
+          "serve"
+        ],
+        "command": "reachctl",
+        "distribution": "signed-installer",
+        "instructions": "https://sthenosec.com/download",
+        "transport": "stdio"
+      },
+      "homepage": "https://sthenosec.com",
+      "publisher": "Sthenos Security, Inc."
+    }
+  },
+  "description": "Reachability-verified AppSec and AI supply-chain scanning with autonomous remediation, run locally.",
+  "name": "com.sthenosec/reachable",
+  "title": "REACHABLE",
+  "version": "1.0.0-beta.194",
+  "websiteUrl": "https://sthenosec.com"
+}
